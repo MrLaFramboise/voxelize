@@ -1430,7 +1430,7 @@ if (BACKEND_SERVER_INSTANCE.origin.includes("localhost")) {
   BACKEND_SERVER_INSTANCE.port = "4000";
 }
 
-const BACKEND_SERVER = BACKEND_SERVER_INSTANCE.toString();
+const BACKEND_SERVER = "wss://voxelize.onrender.com";
 
 class Box extends VOXELIZE.Entity<{
   position: VOXELIZE.Coords3;
